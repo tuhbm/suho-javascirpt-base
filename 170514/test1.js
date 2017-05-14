@@ -7,6 +7,7 @@ var math = {
     max: function(){
         for (var i = 0; i < arguments.length; i++) {
             var obj = arguments[i];
+            return obj;
 
         }
     },
