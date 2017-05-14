@@ -1,14 +1,13 @@
 var math = {
     sum : function(arr,aaa){
-        for (var i = 0; i < arguments.length; i++) {
-            var obj = arguments[i];
-            
-        }
+        arr.map(function(){
+            return aaa+=aaa;
+        })
     },
     max: function(){
         for (var i = 0; i < arguments.length; i++) {
             var obj = arguments[i];
-            
+
         }
     },
 
