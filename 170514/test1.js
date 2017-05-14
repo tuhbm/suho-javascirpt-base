@@ -11,5 +11,6 @@ var math = {
             
         }
     },
+    test:function(){}
 
 }
