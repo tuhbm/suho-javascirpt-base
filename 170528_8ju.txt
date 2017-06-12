@@ -1,0 +1,32 @@
+태균님 화이팅
+
+1. 빼로 PPT를 본다(소비와 생산의 구분과 HTML은 그냥 문서라는 것이 핵심)
+https://www.slideshare.net/yakuyaku/html-29275196?qid=ef08327f-cdca-432b-8cd1-520bbc96f973&v=&b=&from_search=2
+
+2. 수호님 PPT를 본다
+
+3. ES 역사
+
+4. 바벨이 뭔지 설치와 사용법(아주 기초적인 부분만)
+	4-1. babel-cli, babel-preset-env 설치
+	4-2. package.json 설정
+	4-3. .babelrc 설정
+	4-3. 명령어 npm run build 통해 실행
+
+5. let, const, Arrow function
+
+6. 모듈화하여 재사용가능한 비동기함수 만들기(asyncLooper -> main)
+	6-1. 재사용가능한 비동기 함수 만들기
+	6-2. 만든 것 모듈화하여 main.js와 연결
+	6-3. 사용자입장에서 생각하자
+	6-4. ES6로 리팩토링
+
+7. Destructuring Assignment 해체 할당
+
+8. https://github.com/wow9144/fd2/blob/master/src/refactoring/destructuring.js를
+	복붙해서 ES6로 리팩토링하면서 직접 해체 할당을 하라
+
+9. webpack
+	9-1 설치 -> 명령어 webpack dist/main.js bundle/main.bundle.js --watch로 실행
+	9-2 webpack.config.js 설정 및 필수 항목(entry, output) 파악
+	9-3 babel-loader 설치
